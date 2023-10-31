@@ -1,0 +1,281 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-links  {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    color: white;
+    background-color: black;
+    padding: 30px;
+    font-size: 25px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    
+}
+
+li {
+    margin-left: 70px;
+    margin-right: 50px;
+}
+
+.section-heading {
+    max-width: 600px;
+    align-items: center;
+}
+
+ a:hover {
+    color: lightblue;
+    transition: all ease-in 0.1s
+}
+
+.logo:hover {
+    color: lightblue;
+    transition: all ease-in 0.1s;
+}
+
+.navbar {
+    position: sticky;
+    justify-content: flex-end;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+p {
+    
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    max-width: 60%;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    word-wrap: break-word;
+   
+}
+
+footer {
+    display: flex;
+    position: relative;
+    bottom: 0;
+    margin-top: 300px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding-top: 100px;
+}
+
+.footer-h1 {
+    position: absolute;
+    margin-top: -70px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.logo {
+    font-family: system-ui, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 110px;
+    cursor: pointer;
+    border: solid white;
+    padding: 6px;
+}
+
+.container {
+    height: 500px;
+    background-color: red;
+
+}
+
+.contact-link {
+    text-decoration: none;
+}
+
+.logo-img {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 120px;
+    border: solid white 2px;
+}
+
+.banner-image {
+    display: flex;
+    height: 300px;
+    width: 100%;
+}
+
+.banner-h1 {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 750px;
+    z-index: 1;
+    color: white;
+    margin-top: 120px;
+    font-size: 50px;
+    cursor: pointer;
+    background-color: black;
+}
+
+.img-container {
+    position: relative;
+}
+
+.footer-list {
+    display: inline;
+    position: relative;
+    text-decoration: none;
+}
+
+article {
+    display: flex;
+    margin-top: 50px;
+}
+
+.about-me {
+    display: flex;
+    text-align: center;
+    font-size: 60px;
+    cursor: pointer;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.my-work-section {
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.my-first-project {
+    display: flex;
+    position: absolute;
+    cursor: pointer;
+    margin-top: 650px;
+    height: 500px;
+    width: 55%;
+    
+}
+
+.footer-list li {
+    display: inline;
+    margin: 0 10px; 
+  }
+
+  #footer-link {
+    display: flex;
+    align-items: center;
+    margin-top: 1000px;
+    justify-content: center;
+    text-align: center; 
+    height: 200px;
+    padding-top: 50px;
+  }
+
+  .first-ptag{
+    text-align: center;
+    margin: 0 auto; 
+    max-width: 900px; 
+    margin-top: 50px;
+  }
+
+  .my-work {
+    display: flex;
+    margin-top: 30px;
+  }
+
+  .box-img {
+    z-index: 1;
+    display: flex;
+    border-color: black 10px solid;
+    position: absolute;
+    cursor: pointer; 
+    height: 500px;
+    border: solid lightblue 5px;
+  }
+
+  .image-container {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 800px;
+    float: left;
+    
+  }
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 25%;
+    justify-content: center;
+    margin: auto;
+    margin-top: 600px;
+}
+ 
+.image-container img {
+    width: 70%; 
+    border: solid lightblue 5px;
+    height: auto;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+.first-img-container {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 1;
+background-color: black;
+padding: 50px;
+text-align: center;
+justify-content: center;
+align-items: center;
+}
+
+.img-p {
+    font-size: 40px;
+    margin-left: 60px;
+}
