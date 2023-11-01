@@ -1,4 +1,4 @@
-# Job-Oppurtunity-Resume
+# Job-Opportunity-Resume
 
 ## Project 2 of Rutgers coding bootcamp course
 
